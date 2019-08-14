@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> LinguiSticks </title>
+    <link rel="stylesheet" href="homepage.css">
+    <script src=""></script>
+  </head>
+
+  <!--Header and profile pic-->
+  <div id = "header">
+    <img id = "profile" src = "newlogo.png">
+  </div>
+
+  <!--Tab bar navigation-->
+ <style>
+    img{
+      height: 150px;
+    }
+
+    title{
+      font-size: 45px;
+      color: white;
+    }
+
+    caption{
+      color: white;
+      font-size: 18px;
+    }
+
+    .zoom {
+    width: 180px;
+    height: 180px;
+    padding: 50px;
+    margin: 0 auto;
+    transition: transform .2s;
+}
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+    ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #D79922;
+      text-align: center;
+    }
+
+    ul.topnav li {float: left;}
+
+    ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: justify;
+      padding: 14px 105px;
+      text-decoration: none;
+    }
+
+    ul.topnav li a:hover:not(.active) {background-color: #C5CBE3;}
+
+    ul.topnav li a.active {background-color: #4056A1;}
+
+    ul.topnav li.right {float: right;}
+
+    @media screen and (max-width: 600px) {
+      ul.topnav li.right,
+      ul.topnav li {float: none;}
+    }
+  </style>
+
+  <ul class="topnav">
+    <li><a class="active" href="home.html">Home</a></li>
+    <li><a href="historyoflang.html">History/Origin of Languages</a></li>
+    <li><a href="psychoflang.html">Psychology of Languages</a></li>
+    <li><a href="dyinglangs.html">Dying Languages</a></li>
+  </ul>
+
+  <!--Actual code-->
+  <body>
+    <!--Country outline Code-->
+    <center><div class="row">
+
+    <div class="column">
+      <a href="english.html" target="_blank"</a><img class="zoom" src="engl.png" title="England" style="width:35%">
+      <br><br><a id="whitelink" href="english.html" target="_blank">English</a><br>
+    </div>
+    <div class="column">
+      <a href = "french.html" target="_blank"</a><img class="zoom" src="fran.png" title="France" style="width:37%">
+        <br><br><a id="whitelink" href="french.html" target="_blank">French</a><br>
+    </div>
+    <div class="column">
+      <a href = "german.html" target="_blank"</a><img class="zoom" src="germ.png" title="Germany"style="width:37%">
+        <br><br><a id="whitelink" href="german.html" target="_blank">German</a><br>
+    </div>
+  </div>
+
+<br><br>
+
+    <center><div class="row">
+
+    <div class="column">
+      <a href = "hindi.html" target="_blank"</a><img class="zoom" src="india.png" title="India" style="width:37%">
+        <br><br><a id="whitelink" href="india.html" target="_blank">Hindi</a><br>
+    </div>
+    <div class="column">
+        <a href = "italian.html" target="_blank"</a><img class="zoom" src="italy.png" title="Italy" style="width:37%">
+          <br><br><a id="whitelink" href="italian.html" target="_blank">Italian</a><br>
+    </div>
+    <div class="column">
+      <a href = "spanish.html" target="_blank"</a><img class="zoom" src="spain.png" title="Spain" style="width:35%">
+        <br><br><a id="whitelink"href="spanish.html" target="_blank">Spanish</a><br>
+    </div>
+  </div>
+
+  </body>
+
+</html>

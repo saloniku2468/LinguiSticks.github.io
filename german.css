@@ -1,0 +1,52 @@
+#logo {
+  height: 200px;
+  vertical-align: middle;
+  margin-left: 150px;
+}
+
+#header {
+  padding 2px;
+  font-size: 62px;
+  font-family: "Optima", sans-serif;
+  margin: 10px 350px 10px 350px;
+}
+
+/*Color of language title*/
+h1{
+  padding-left: 550px;
+  padding-left: 640px;
+  color: #263441;
+  font-size: 80px;
+  font-family: "Luminari", fantasy;
+  /*font-family: "Luminari", fantasy;*/
+}
+
+/*Color of subheaders in page*/
+h2{
+  color: #B02525;
+  padding-left: 75px;
+  padding-right: 75px;
+
+}
+
+/* body text rendering*/
+body {
+  background-color: #FFE984;
+  background-image: url("https://cdn3.volusion.com/ncjcv.jdcen/v/vspfiles/photos/FAB-068-1y-2.jpg?1513097932");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: ;
+
+}
+
+table {
+  font-family: "Optima", fantasy;
+  color: #E96600;
+}
+
+
+table {
+  border: 2px solid #F0B300;
+}

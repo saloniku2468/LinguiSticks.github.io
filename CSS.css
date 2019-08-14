@@ -1,0 +1,16 @@
+#profile{
+  height: 200px;
+  vertical-align: middle;
+  margin-left: 150px;
+}
+
+#header {
+  padding 2px;
+  font-size: 62px;
+  font-family: "Lucida Fax", sans-serif;
+  margin: 10px 350px 10px 350px;
+}
+
+p {
+  font-family: "Optima", sans-serif;
+}

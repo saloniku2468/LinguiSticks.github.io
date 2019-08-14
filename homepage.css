@@ -1,0 +1,60 @@
+body {
+     background-image: url("gif.webp");
+     /* Full height */
+       height: 100%;
+
+       /* Center and scale the image nicely */
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+
+#profile{
+  height: 200px;
+  vertical-align: middle;
+  margin-left: 150px;
+}
+
+
+#header {
+  padding 2px;
+  font-size: 62px;
+  font-family: "Lucida Fax", sans-serif;
+  margin: 10px 350px 10px 350px;
+}
+
+/*Color of language title*/
+h1{
+  padding-left: 650px;
+  color: #949245;
+  font-size: 40px;
+}
+
+/*Color of subheaders in page*/
+h2{
+  color: red;
+}
+
+h3{
+  font-size: 18px;
+}
+
+
+p {
+  font-family: "Optima", sans-serif;
+  color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#whitelink{
+  color: white;
+  font-size: 30px;
+}

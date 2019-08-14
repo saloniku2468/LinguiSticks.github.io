@@ -1,0 +1,48 @@
+#logo{
+  height: 200px;
+  vertical-align: middle;
+  margin-left: 150px;
+}
+
+#header {
+  padding 2px;
+  font-size: 62px;
+  font-family: "Optima", sans-serif;
+  margin: 10px 350px 10px 350px;
+}
+
+/*Color of language title*/
+h1{
+  padding-left: 640px;
+  color: #1C2F83;
+  font-size: 40px;
+}
+
+/*Color of subheaders in page*/
+h2{
+  color: #1C2F83;
+  padding-left: 75px;
+  padding-right: 75px;
+
+}
+
+/*Color of paragraphs*/
+p{
+  color: #A20000;
+  font-family: "Optima", sans-serif;
+}
+
+/* body text rendering*/
+body {
+  background-color: #E3E6F4;
+  font-family: ;
+}
+
+table, tr, td {
+  border: 3px solid white;
+}
+
+table {
+  font-family: "Optima", fantasy;
+  color: #A20000
+}
